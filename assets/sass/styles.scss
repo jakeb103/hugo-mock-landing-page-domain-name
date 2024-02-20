@@ -1,14 +1,16 @@
 .home {
-    --bd-purple: #4c0bce;
-    --bd-violet: #712cf9;
+    --bd-darkGreen: #065328;
+    --bd-green: #37df37b0;
     --bd-accent: #ffe484;
+    --bd-darkGreen-rgb: 6,83,40;
+    --bd-green-rgb: 55,223,55;
     --bd-violet-rgb: 112.520718,44.062154,249.437846;
     --bd-accent-rgb: 255,228,132;
     --bd-pink-rgb: 214,51,132;
 
     .bd-masthead {
         padding: 3rem 0;
-        background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%),radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
+        background-image: linear-gradient(180deg, rgba(var(--bd-darkGreen-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 98%),radial-gradient(ellipse at top left, rgba(var(--bd-green-rgb), 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
     }
 
     .btn-bd-primary {
@@ -27,16 +29,16 @@
     }
 }
 
-.navbar {
-    @extend .navbar-dark;
+// .navbar {
+//     @extend .navbar-dark;
 
-    --bd-violet-rgb: 112.520718,44.062154,249.437846;
+//     --bd-violet-rgb: 112.520718,44.062154,249.437846;
     
-    padding: .75rem 0;
-    background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95));
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
-}
+//     padding: .75rem 0;
+//     background-color: transparent;
+//     background-image: linear-gradient(to bottom, rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95));
+//     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
+// }
 
 .text-violet {
     color: #6528e0;

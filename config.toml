@@ -1,0 +1,50 @@
+# Based on the theme by provided author at URL below:
+author = "Jake Brooks"
+baseURL = 'https://jakeb103.github.io/hugo-mock-landing-page/'
+copyright = "Jake Brooks"
+title = "Second Brain Launch Page"
+
+timeZone = 'Europe/London'
+
+# Multilingual
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+theme = "hugo-bootstrap-theme"
+
+disableHugoGeneratorInject = true
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+#sectionPagesMenu = "main"
+#googleAnalytics = "UA-1511XXXX-X"
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = 'series'
+tag = "tags"
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[permalinks]
+#  post = "/post/:title/"
+
+[module]
+[module.hugoVersion]
+extended = true
+max = ""
+min = "0.99.1"
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static"
+target = "static"
