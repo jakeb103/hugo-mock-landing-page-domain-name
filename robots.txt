@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /404.html
-Sitemap: http://secondbrainlandingpage.biz/sitemap.xml
+Sitemap: https://jakeb103.github.io/hugo-mock-landing-page-domain-name/sitemap.xml
